@@ -1,0 +1,11 @@
+drop database IF EXISTS database1;
+create database database1;
+use database1;
+create table login(
+password int primary key,
+username varchar(45));
+insert into login values(123,'Amruta');
+insert into login values(345,'Barkha');
+insert into login values(456,'Chetna');
+insert into login values(567,'Dharti');
+select * from login;
